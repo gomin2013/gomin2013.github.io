@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-i18n="/i18n/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gomin Apps · Free macOS apps for developers</title>
+  <meta name="description" content="Free, open-source macOS apps by Watthajak Jinasam: Hosts Manager for /etc/hosts and Git Exclude Manager for .git/info/exclude. 12 languages.">
+  <meta name="robots" content="noindex">
+  <script>
+    // GitHub Pages serves this file for every path no project site claims, e.g. /Hosts-Manager/ or /git-exclude-
+    (function () {
+      var path = location.pathname.replace(/^\/+/, ""), lower = path.toLowerCase(), seg = lower.split("/")[0];
+      var apps = [["hosts-manager", /^hosts?/], ["git-exclude-manager", /^git/]];
+      for (var i = 0; i < apps.length; i++) {
+        if (!apps[i][1].test(seg)) continue;
+        // exact app name in the wrong case keeps the rest of the path; a partial name goes to the app's home
+        var rest = seg === apps[i][0] ? lower.slice(seg.length).replace(/^\/?/, "") : "";
+        location.replace("/" + apps[i][0] + "/" + rest + location.search + location.hash);
+        return;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://gomin2013.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gomin Apps · Free macOS apps for developers">
+  <meta property="og:description" content="Hosts Manager and Git Exclude Manager. Free and open source.">
+  <meta property="og:url" content="https://gomin2013.github.io/">
+  <meta property="og:image" content="https://gomin2013.github.io/hosts-manager/assets/img/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <!-- ponytail: own copy of the new site.css/js until hosts-manager v1.1.0 is live (then /hosts-manager/assets/ again); images and fonts come from that site -->
+  <link rel="stylesheet" href="/assets/site.css">
+  <script>try{var d=document.documentElement,n=(navigator.language||"").toLowerCase(),l=localStorage.getItem("hm.lang")||(/^zh-(hant|tw|hk|mo)/.test(n)?"zh-Hant":/^zh/.test(n)?"zh-Hans":/^fil/.test(n)?"tl":n.slice(0,2));if("en th ja ko vi id ms tl zh-Hans zh-Hant es ru".split(" ").indexOf(l)<0)l="en";d.lang=l;if(l==="th")d.classList.add("th");else if(l!=="en")d.classList.add("i18n-wait")}catch(e){}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/">Gomin Apps</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/hosts-manager/">Hosts Manager</a>
+        <a href="/git-exclude-manager/" class="hide-sm">Git Exclude Manager</a>
+      </nav>
+      <button type="button" class="lang-btn" data-lang-open aria-haspopup="dialog" aria-label="Language"><i class="ph ph-globe" aria-hidden="true"></i><span class="lang-name">English</span><span class="lang-code">en</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <h1><span class="en">That page isn't here</span><span class="th">ไม่พบหน้านี้</span></h1>
+        <p class="lede"><span class="en">The link may be cut short. Pick the app you were looking for.</span><span class="th">ลิงก์อาจไม่ครบ เลือกแอปที่ต้องการได้เลย</span></p>
+      </div>
+    </section>
+
+    <section style="padding-top:16px">
+      <div class="wrap" style="display:grid;gap:28px">
+        <div class="sibling">
+          <div>
+            <div class="who">
+              <img src="/hosts-manager/assets/img/hm-icon.png" width="56" height="56" alt="">
+              <h2 style="font-size:30px">Hosts Manager</h2>
+            </div>
+            <p><span class="en">Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.</span><span class="th">แก้ /etc/hosts ได้ไม่ต้องเปิด Terminal ตรวจความถูกต้อง สำรองไฟล์อัตโนมัติ ลากจัดหมวดได้ และมีผู้ช่วย AI</span></p>
+            <div class="cta-row" style="margin-top:22px">
+              <a class="btn btn-primary" href="/hosts-manager/"><i class="ph ph-arrow-right" aria-hidden="true"></i><span class="en">Open Hosts Manager</span><span class="th">เปิด Hosts Manager</span></a>
+              <a class="btn btn-ghost" href="https://github.com/gomin2013/hosts-manager" target="_blank" rel="noopener"><i class="ph ph-github-logo" aria-hidden="true"></i>GitHub</a>
+            </div>
+          </div>
+          <img class="shot" src="/hosts-manager/assets/img/hm-main-dark.png" width="1432" height="972" loading="lazy" alt="Hosts Manager window with sections of /etc/hosts entries">
+        </div>
+
+        <div class="sibling">
+          <div>
+            <div class="who">
+              <img src="/git-exclude-manager/assets/img/gem-icon.png" width="56" height="56" alt="">
+              <h2 style="font-size:30px">Git Exclude Manager</h2>
+            </div>
+            <p><span class="en">Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.</span><span class="th">ซ่อนไฟล์ส่วนตัวจาก git status ด้วย .git/info/exclude โดยไม่ต้องแตะ .gitignore ของทีม</span></p>
+            <div class="cta-row" style="margin-top:22px">
+              <a class="btn btn-primary" href="/git-exclude-manager/"><i class="ph ph-arrow-right" aria-hidden="true"></i><span class="en">Open Git Exclude Manager</span><span class="th">เปิด Git Exclude Manager</span></a>
+              <a class="btn btn-ghost" href="https://github.com/gomin2013/git-exclude-manager" target="_blank" rel="noopener"><i class="ph ph-github-logo" aria-hidden="true"></i>GitHub</a>
+            </div>
+          </div>
+          <img class="shot" src="/git-exclude-manager/assets/img/gem-main.png" width="1100" height="800" loading="lazy" alt="Git Exclude Manager window with repository tabs and ignore patterns">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <span class="brand">Gomin Apps</span>
+      <nav aria-label="Footer">
+        <a href="/hosts-manager/">Hosts Manager</a>
+        <a href="/git-exclude-manager/">Git Exclude Manager</a>
+        <a href="https://github.com/gomin2013" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <small><span class="en">© 2026 Watthajak Jinasam. Free and open source under the MIT License.</span><span class="th">© 2026 Watthajak Jinasam ฟรีและโอเพนซอร์สภายใต้สัญญาอนุญาต MIT</span></small>
+    </div>
+  </footer>
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>

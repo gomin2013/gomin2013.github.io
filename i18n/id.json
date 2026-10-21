@@ -1,11 +1,17 @@
 {
  "Free Mac apps for developers": "Aplikasi Mac gratis untuk developer",
- "Small, native tools for the files you edit by hand. Open source, no account, 12 languages.": "Alat kecil berbasis native untuk file yang Anda edit manual. Open source, tanpa akun, 12 bahasa.",
+ "Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.": "Alat kecil berbasis native untuk developer dan kreator: file yang Anda edit manual, dan sulih suara yang Anda tulis. Open source, tanpa akun.",
  "Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.": "Edit /etc/hosts tanpa terminal. Dilengkapi validasi, pencadangan otomatis, section yang bisa diseret, dan asisten AI opsional.",
  "Open Hosts Manager": "Buka Hosts Manager",
  "Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.": "Jauhkan file lokal dari git status lewat .git/info/exclude, tanpa menyentuh .gitignore tim Anda.",
  "Open Git Exclude Manager": "Buka Git Exclude Manager",
+ "Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.": "Tulis sulih suara adegan demi adegan, dengarkan gratis dengan suara Mac, lalu buat dengan Gemini TTS memakai kunci Anda sendiri. Setiap take disimpan.",
+ "Open AI Voice Manager": "Buka AI Voice Manager",
  "© 2026 Watthajak Jinasam. Free and open source under the MIT License.": "© 2026 Watthajak Jinasam. Gratis dan open source di bawah MIT License.",
  "That page isn't here": "Halaman ini tidak ada",
- "The link may be cut short. Pick the app you were looking for.": "Tautannya mungkin terpotong. Pilih aplikasi yang Anda cari."
+ "The link may be cut short. Pick the app you were looking for.": "Tautannya mungkin terpotong. Pilih aplikasi yang Anda cari.",
+ "Open SwiftUI Mac Skills": "Buka SwiftUI Mac Skills",
+ "Profile": "Profil",
+ "Sponsor": "Sponsori",
+ "Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.": "Skill Claude Code gratis untuk membuat aplikasi Mac SwiftUI native seperti aplikasi-aplikasi ini: Liquid Glass sungguhan, rel panel ala IDE, tema aksen."
 }

@@ -1,11 +1,17 @@
 {
  "Free Mac apps for developers": "開発者向けの無料Macアプリ",
- "Small, native tools for the files you edit by hand. Open source, no account, 12 languages.": "手作業で編集するファイルのための、小さなネイティブツール。オープンソース、アカウント不要、12言語対応。",
+ "Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.": "開発者とクリエイターのための、小さなネイティブツール。手作業で編集するファイルにも、あなたが書くボイスオーバーにも。オープンソース、アカウント不要。",
  "Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.": "ターミナルなしで /etc/hosts を編集。検証、自動バックアップ、ドラッグできるセクション、オプションのAIアシスタントを備えています。",
  "Open Hosts Manager": "Hosts Manager を開く",
  "Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.": "チームの .gitignore には触れずに、.git/info/exclude でローカルファイルを git status から除外します。",
  "Open Git Exclude Manager": "Git Exclude Manager を開く",
+ "Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.": "ボイスオーバーをシーンごとに書き、Mac の声で無料で聞いてから、自分のキーで Gemini TTS が生成します。すべてのテイクが残ります。",
+ "Open AI Voice Manager": "AI Voice Manager を開く",
  "© 2026 Watthajak Jinasam. Free and open source under the MIT License.": "© 2026 Watthajak Jinasam. 無料のオープンソースソフトウェアです(MIT License)。",
  "That page isn't here": "このページは見つかりません",
- "The link may be cut short. Pick the app you were looking for.": "リンクが途中で切れている可能性があります。お探しのアプリを選んでください。"
+ "The link may be cut short. Pick the app you were looking for.": "リンクが途中で切れている可能性があります。お探しのアプリを選んでください。",
+ "Open SwiftUI Mac Skills": "SwiftUI Mac Skills を開く",
+ "Profile": "プロフィール",
+ "Sponsor": "スポンサーになる",
+ "Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.": "これらのアプリと同じ作りでネイティブな SwiftUI Mac アプリを作る、無料の Claude Code スキル：本物の Liquid Glass、IDE 風パネルレール、アクセントテーマ。"
 }

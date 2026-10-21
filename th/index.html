@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gomin Apps · แอป Mac ฟรีสำหรับนักพัฒนา</title>
-  <meta name="description" data-th="แอป macOS ฟรีโอเพนซอร์สโดย Watthajak Jinasam: Hosts Manager สำหรับ /etc/hosts และ Git Exclude Manager สำหรับ .git/info/exclude รองรับ 12 ภาษา" content="แอป macOS ฟรีโอเพนซอร์สโดย Watthajak Jinasam: Hosts Manager สำหรับ /etc/hosts และ Git Exclude Manager สำหรับ .git/info/exclude รองรับ 12 ภาษา">
+  <meta name="description" data-th="แอป macOS ฟรีโอเพนซอร์สโดย Watthajak Jinasam: Hosts Manager สำหรับ /etc/hosts, Git Exclude Manager สำหรับ .git/info/exclude และ AI Voice Manager สำหรับเสียงพากย์ AI" content="แอป macOS ฟรีโอเพนซอร์สโดย Watthajak Jinasam: Hosts Manager สำหรับ /etc/hosts, Git Exclude Manager สำหรับ .git/info/exclude และ AI Voice Manager สำหรับเสียงพากย์ AI">
   <link rel="canonical" href="https://gomin2013.github.io/th/">
   <link rel="alternate" hreflang="en" href="https://gomin2013.github.io/">
   <link rel="alternate" hreflang="th" href="https://gomin2013.github.io/th/">
@@ -14,14 +14,17 @@
   <meta property="og:title" data-th="Gomin Apps · แอป Mac ฟรีสำหรับนักพัฒนา" content="Gomin Apps · แอป Mac ฟรีสำหรับนักพัฒนา">
   <meta property="og:locale" content="th_TH">
   <meta property="og:locale:alternate" content="en_US">
-  <meta property="og:description" data-th="Hosts Manager และ Git Exclude Manager ฟรีและโอเพนซอร์ส" content="Hosts Manager และ Git Exclude Manager ฟรีและโอเพนซอร์ส">
+  <meta property="og:description" data-th="Hosts Manager, Git Exclude Manager และ AI Voice Manager ฟรีและโอเพนซอร์ส" content="Hosts Manager, Git Exclude Manager และ AI Voice Manager ฟรีและโอเพนซอร์ส">
   <meta property="og:url" content="https://gomin2013.github.io/th/">
-  <meta property="og:image" content="https://gomin2013.github.io/hosts-manager/assets/img/og-image.png">
+  <meta property="og:image" content="https://gomin2013.github.io/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
-  <!-- ponytail: own copy of the new site.css/js until hosts-manager v1.1.0 is live (then /hosts-manager/assets/ again); images and fonts come from that site -->
-  <link rel="stylesheet" href="/assets/site.css">
+  <!-- ponytail: styles and scripts come from the hosts-manager project site on this same origin -->
+  <link rel="stylesheet" href="/hosts-manager/assets/site.css">
   <script>try{var d=document.documentElement,n=(navigator.language||"").toLowerCase(),l="th"||(/^zh-(hant|tw|hk|mo)/.test(n)?"zh-Hant":/^zh/.test(n)?"zh-Hans":/^fil/.test(n)?"tl":n.slice(0,2));if("en th ja ko vi id ms tl zh-Hans zh-Hant es ru".split(" ").indexOf(l)<0)l="en";d.lang=l;if(l==="th"){d.classList.add("th");document.querySelectorAll("[data-th]").forEach(function(e){e.tagName==="TITLE"?e.textContent=e.dataset.th:e.content=e.dataset.th})}else if(l!=="en")d.classList.add("i18n-wait")}catch(e){}</script>
 </head>
 <body>
@@ -29,8 +32,9 @@
     <div class="wrap nav">
       <a class="brand" href="/">Gomin Apps</a>
       <nav class="nav-links" aria-label="Main">
-        <a href="/hosts-manager/">Hosts Manager</a>
+        <a href="/hosts-manager/" class="hide-sm">Hosts Manager</a>
         <a href="/git-exclude-manager/" class="hide-sm">Git Exclude Manager</a>
+        <a href="/ai-voice-manager/" class="hide-sm">AI Voice Manager</a>
       </nav>
       <button type="button" class="lang-btn" data-lang-open aria-haspopup="dialog" aria-label="Language"><i class="ph ph-globe" aria-hidden="true"></i><span class="lang-name">English</span><span class="lang-code">en</span></button>
     </div>
@@ -40,7 +44,7 @@
     <section class="page-hero">
       <div class="wrap">
         <h1><span class="en">Free Mac apps for developers</span><span class="th">แอป Mac ฟรีสำหรับนักพัฒนา</span></h1>
-        <p class="lede"><span class="en">Small, native tools for the files you edit by hand. Open source, no account, 12 languages.</span><span class="th">เครื่องมือเล็กๆ สำหรับไฟล์ที่ต้องแก้ด้วยมือ โอเพนซอร์ส ไม่ต้องสมัคร รองรับ 12 ภาษา</span></p>
+        <p class="lede"><span class="en">Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.</span><span class="th">เครื่องมือเล็กๆ แบบ native สำหรับนักพัฒนาและคนทำคอนเทนต์ ทั้งไฟล์ที่ต้องแก้ด้วยมือ และเสียงพากย์ที่คุณเขียน โอเพนซอร์ส ไม่ต้องสมัคร</span></p>
       </div>
     </section>
 
@@ -75,6 +79,38 @@
           </div>
           <img class="shot" src="/git-exclude-manager/assets/img/gem-main.png" width="1100" height="800" loading="lazy" alt="Git Exclude Manager window with repository tabs and ignore patterns">
         </div>
+        <div class="sibling">
+          <div>
+            <div class="who">
+              <img src="/ai-voice-manager/assets/img/avm-icon.png" width="56" height="56" alt="">
+              <h2 style="font-size:30px">AI Voice Manager</h2>
+            </div>
+            <p><span class="en">Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.</span><span class="th">เขียนเสียงพากย์เป็นฉาก ลองฟังฟรีด้วยเสียงของ Mac แล้วสร้างเสียงจริงด้วย Gemini TTS ผ่าน key ของคุณเอง ทุก take เก็บไว้ให้</span></p>
+            <div class="cta-row" style="margin-top:22px">
+              <a class="btn btn-primary" href="/ai-voice-manager/"><i class="ph ph-arrow-right" aria-hidden="true"></i><span class="en">Open AI Voice Manager</span><span class="th">เปิด AI Voice Manager</span></a>
+              <a class="btn btn-ghost" href="https://github.com/gomin2013/ai-voice-manager" target="_blank" rel="noopener"><i class="ph ph-github-logo" aria-hidden="true"></i>GitHub</a>
+            </div>
+          </div>
+          <img class="shot" src="/ai-voice-manager/assets/img/avm-main.png" width="1440" height="792" loading="lazy" alt="AI Voice Manager window with a script timeline, the current scene and the Gemini voice library">
+        </div>
+        <div class="sibling">
+          <div>
+            <div class="who">
+              <img src="/swiftui-mac-skills/assets/img/gomin.png" width="56" height="56" alt="">
+              <h2 style="font-size:30px">SwiftUI Mac Skills</h2>
+            </div>
+            <p><span class="en">Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.</span><span class="th">Claude Code skill ฟรีสำหรับสร้างแอป SwiftUI บน Mac แบบเดียวกับแอปเหล่านี้: Liquid Glass ที่ขึ้นจริง แผงเครื่องมือแบบ IDE และธีมสี</span></p>
+            <div class="cta-row" style="margin-top:22px">
+              <a class="btn btn-primary" href="/swiftui-mac-skills/"><i class="ph ph-arrow-right" aria-hidden="true"></i><span class="en">Open SwiftUI Mac Skills</span><span class="th">เปิด SwiftUI Mac Skills</span></a>
+              <a class="btn btn-ghost" href="https://github.com/gomin2013/swiftui-mac-skills" target="_blank" rel="noopener"><i class="ph ph-github-logo" aria-hidden="true"></i>GitHub</a>
+            </div>
+          </div>
+          <img class="shot" src="/swiftui-mac-skills/assets/video/poster.png" width="1920" height="1080" loading="lazy" alt="SwiftUI Mac Skills: the four skills and the two apps they come from">
+        </div>
+        <div class="pin-note" style="margin-top:0">
+          <i class="ph ph-user-circle" aria-hidden="true"></i>
+          <p><span class="en">Made by Watthajak Jinasam, a lead web developer in Thailand. <a href="/profile/">Read my profile</a>.</span><span class="th">สร้างโดย Watthajak Jinasam หัวหน้านักพัฒนาเว็บในประเทศไทย <a href="/profile/">ดูโปรไฟล์</a></span></p>
+        </div>
       </div>
     </section>
   </main>
@@ -83,13 +119,17 @@
     <div class="wrap foot">
       <span class="brand">Gomin Apps</span>
       <nav aria-label="Footer">
-        <a href="/hosts-manager/">Hosts Manager</a>
+        <a href="/hosts-manager/" class="hide-sm">Hosts Manager</a>
         <a href="/git-exclude-manager/">Git Exclude Manager</a>
+        <a href="/ai-voice-manager/">AI Voice Manager</a>
+        <a href="/swiftui-mac-skills/">SwiftUI Mac Skills</a>
+        <a href="/profile/"><span class="en">Profile</span><span class="th">โปรไฟล์</span></a>
         <a href="https://github.com/gomin2013" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/sponsors/gomin2013" target="_blank" rel="noopener"><span class="en">Sponsor</span><span class="th">สนับสนุน</span></a>
       </nav>
       <small><span class="en">© 2026 Watthajak Jinasam. Free and open source under the MIT License.</span><span class="th">© 2026 Watthajak Jinasam ฟรีและโอเพนซอร์สภายใต้สัญญาอนุญาต MIT</span></small>
     </div>
   </footer>
-  <script src="/assets/site.js" defer></script>
+  <script src="/hosts-manager/assets/site.js" defer></script>
 </body>
 </html>

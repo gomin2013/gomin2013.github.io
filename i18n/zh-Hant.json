@@ -1,11 +1,17 @@
 {
  "Free Mac apps for developers": "給開發者的免費 Mac App",
- "Small, native tools for the files you edit by hand. Open source, no account, 12 languages.": "為你手動編輯的檔案打造的原生小工具。開放原始碼，無需帳號，支援 12 種語言。",
+ "Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.": "為開發者和創作者打造的原生小工具：手動編輯的檔案，以及你寫的配音。開放原始碼，無需帳號。",
  "Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.": "不用開終端機就能編輯 /etc/hosts。具備驗證、自動備份、可拖移的區段，以及選用的 AI 助理。",
  "Open Hosts Manager": "打開 Hosts Manager",
  "Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.": "用 .git/info/exclude 讓本機檔案不再出現在 git status，也不必更動團隊的 .gitignore。",
  "Open Git Exclude Manager": "打開 Git Exclude Manager",
+ "Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.": "按場景寫配音，用 Mac 的聲音免費試聽，再用你自己的金鑰由 Gemini TTS 生成。每條音軌都會保留。",
+ "Open AI Voice Manager": "打開 AI Voice Manager",
  "© 2026 Watthajak Jinasam. Free and open source under the MIT License.": "© 2026 Watthajak Jinasam。免費且開放原始碼，依 MIT License 釋出。",
  "That page isn't here": "找不到這個頁面",
- "The link may be cut short. Pick the app you were looking for.": "連結可能不完整。請選擇你要找的 App。"
+ "The link may be cut short. Pick the app you were looking for.": "連結可能不完整。請選擇你要找的 App。",
+ "Open SwiftUI Mac Skills": "開啟 SwiftUI Mac Skills",
+ "Profile": "個人簡介",
+ "Sponsor": "贊助",
+ "Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.": "免費的 Claude Code 技能，照這些 App 的方式打造原生 SwiftUI Mac App：真正的 Liquid Glass、IDE 風格面板列、強調色主題。"
 }

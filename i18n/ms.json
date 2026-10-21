@@ -1,11 +1,17 @@
 {
  "Free Mac apps for developers": "Aplikasi Mac percuma untuk pembangun",
- "Small, native tools for the files you edit by hand. Open source, no account, 12 languages.": "Alat kecil dan asli untuk fail yang anda edit sendiri. Sumber terbuka, tanpa akaun, 12 bahasa.",
+ "Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.": "Alat kecil dan asli untuk pembangun dan pencipta kandungan: fail yang anda edit sendiri, dan alih suara yang anda tulis. Sumber terbuka, tanpa akaun.",
  "Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.": "Edit /etc/hosts tanpa terminal. Pengesahan, sandaran automatik, seksyen boleh diseret dan pembantu AI pilihan.",
  "Open Hosts Manager": "Buka Hosts Manager",
  "Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.": "Pastikan fail tempatan tidak muncul dalam git status dengan .git/info/exclude, tanpa mengusik .gitignore pasukan anda.",
  "Open Git Exclude Manager": "Buka Git Exclude Manager",
+ "Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.": "Tulis alih suara babak demi babak, dengar secara percuma dengan suara Mac, kemudian hasilkan dengan Gemini TTS menggunakan kunci anda sendiri. Setiap take disimpan.",
+ "Open AI Voice Manager": "Buka AI Voice Manager",
  "© 2026 Watthajak Jinasam. Free and open source under the MIT License.": "© 2026 Watthajak Jinasam. Percuma dan bersumber terbuka di bawah MIT License.",
  "That page isn't here": "Halaman itu tiada di sini",
- "The link may be cut short. Pick the app you were looking for.": "Pautan mungkin terpotong. Pilih aplikasi yang anda cari."
+ "The link may be cut short. Pick the app you were looking for.": "Pautan mungkin terpotong. Pilih aplikasi yang anda cari.",
+ "Open SwiftUI Mac Skills": "Buka SwiftUI Mac Skills",
+ "Profile": "Profil",
+ "Sponsor": "Taja",
+ "Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.": "Skill Claude Code percuma untuk membina aplikasi Mac SwiftUI asli seperti aplikasi-aplikasi ini: Liquid Glass sebenar, rel panel gaya IDE, tema aksen."
 }

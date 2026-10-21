@@ -2,7 +2,9 @@
 const src = require("fs").readFileSync(__dirname + "/404.html", "utf8").match(/<script>\s*(\/\/ GitHub Pages[\s\S]*?)<\/script>/)[1];
 const cases = {
   "/Hosts-Manager/": "/hosts-manager/", "/Hosts-Manager/Download/": "/hosts-manager/download/", "/host": "/hosts-manager/",
-  "/git-exclude-": "/git-exclude-manager/", "/GIT-EXCLUDE-MANAGER": "/git-exclude-manager/", "/nothing": null, "/": null,
+  "/git-exclude-": "/git-exclude-manager/", "/GIT-EXCLUDE-MANAGER": "/git-exclude-manager/", "/AI-Voice-Manager/": "/ai-voice-manager/", "/AI-VOICE-MANAGER/download/": "/ai-voice-manager/download/", "/ai-voice": "/ai-voice-manager/",
+  "/Profile/": "/profile/", "/PROFILE/x": "/profile/x", "/prof": "/profile/",
+  "/nothing": null, "/": null,
 };
 let failed = 0;
 for (const [path, want] of Object.entries(cases)) {

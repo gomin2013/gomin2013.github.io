@@ -1,11 +1,17 @@
 {
  "Free Mac apps for developers": "Бесплатные приложения для Mac для разработчиков",
- "Small, native tools for the files you edit by hand. Open source, no account, 12 languages.": "Небольшие родные инструменты для файлов, которые вы правите вручную. Открытый код, без учётной записи, 12 языков.",
+ "Small, native tools for developers and makers: the files you edit by hand, and the voice-overs you write. Open source, no account.": "Небольшие родные инструменты для разработчиков и авторов: файлы, которые вы правите вручную, и озвучка, которую вы пишете. Открытый код, без учётной записи.",
  "Edit /etc/hosts without the terminal. Validation, automatic backups, draggable sections and an optional AI assistant.": "Редактируйте /etc/hosts без терминала. Проверка, автоматические резервные копии, перетаскиваемые разделы и необязательный ИИ-помощник.",
  "Open Hosts Manager": "Открыть Hosts Manager",
  "Keep local files out of git status with .git/info/exclude, without touching your team's .gitignore.": "Держите локальные файлы вне git status с помощью .git/info/exclude, не трогая .gitignore вашей команды.",
  "Open Git Exclude Manager": "Открыть Git Exclude Manager",
+ "Write a voice-over scene by scene, listen free with your Mac's voices, then generate it with Gemini TTS on your own key. Every take is kept.": "Пишите озвучку сцена за сценой, слушайте бесплатно голосами Mac, а затем создавайте её в Gemini TTS по своему ключу. Все дубли сохраняются.",
+ "Open AI Voice Manager": "Открыть AI Voice Manager",
  "© 2026 Watthajak Jinasam. Free and open source under the MIT License.": "© 2026 Watthajak Jinasam. Бесплатно и с открытым кодом по лицензии MIT License.",
  "That page isn't here": "Такой страницы здесь нет",
- "The link may be cut short. Pick the app you were looking for.": "Возможно, ссылка обрезана. Выберите приложение, которое искали."
+ "The link may be cut short. Pick the app you were looking for.": "Возможно, ссылка обрезана. Выберите приложение, которое искали.",
+ "Open SwiftUI Mac Skills": "Открыть SwiftUI Mac Skills",
+ "Profile": "Профиль",
+ "Sponsor": "Поддержать",
+ "Free Claude Code skills that build native SwiftUI Mac apps the way these apps are built: real Liquid Glass, an IDE-style panel rail, accent themes.": "Бесплатные навыки Claude Code для нативных Mac-приложений на SwiftUI — так же, как эти приложения: настоящий Liquid Glass, панель в стиле IDE, акцентные темы."
 }
